@@ -17,14 +17,7 @@ import org.openqa.selenium.Keys as Keys
 'Go to page and verify header title'
 WebUI.callTestCase(findTestCase('Common/Go to page and verify title'), [('p_FunctionName') : 'Checkboxes', ('p_HeaderTitle') : 'Checkboxes'],
 	FailureHandling.STOP_ON_FAILURE)
-//WebUI.click(findTestObject('General/lnk_Function Name', [('linkName') : 'Checkboxes']))
-//
-//'Verify  Header title'
-//WebUI.verifyElementText(findTestObject('General/lbl_Header title'), 'Checkboxes')
 
-//String headertitle = WebUI.getText(findTestObject('null'))
-//
-//WebUI.verifyEqual(headertitle, 'Checkboxes')
 'Checked on checkbox1'
 WebUI.check(findTestObject('Page_Checkboxes/checkbox1'))
 

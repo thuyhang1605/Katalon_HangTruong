@@ -11,20 +11,6 @@ import com.kms.katalon.core.annotation.Keyword
 public class FileDownloaded {
 
 	@Keyword
-	public boolean isFileDownloaded(String downloadPath, String fileName) {
-		String pathName = downloadPath+fileName;
-		File file = new File(pathName);
-
-		return file.exists()
-		//return file.exists()
-		//		if (file.exists()){
-		//			return true
-		//		}
-		//
-		//		return false
-	}
-
-	@Keyword
 	def deleteFile(String downloadPath, String fileName) {
 		String pathName = downloadPath+fileName;
 		File file = new File(pathName);

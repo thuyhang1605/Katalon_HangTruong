@@ -16,6 +16,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
+'go to page and verify title'
 WebUI.callTestCase(findTestCase('Common/Go to page and verify title'), [('p_FunctionName') : 'JQuery UI Menus', ('p_HeaderTitle') : 'JQueryUI - Menu'], 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -51,8 +52,6 @@ CustomKeywords.'htPackage.FileDownloaded.deleteFile'('C:\\Users\\hangtruong\\Dow
 WebUI.click(findTestObject('Page_Menu/CSV_link'))
 
 CustomKeywords.'htPackage.FileDownloaded.waitUntilFileDownloaded'('C:\\Users\\hangtruong\\Downloads\\', 'menu.csv', 5, 1)
-
-//WebUI.verifyEqual(CustomKeywords.'htPackage.FileDownloaded.isFileDownloaded'('C:\\Users\\hangtruong\\Downloads\\', 'menu.csv'), true)
 	
 CustomKeywords.'htPackage.FileDownloaded.deleteFile'('C:\\Users\\hangtruong\\Downloads\\', 'menu.csv')
 

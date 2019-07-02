@@ -8,6 +8,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import java.awt.event.KeyEvent as KeyEvent
 
+'go to page and verify title'
 WebUI.callTestCase(findTestCase('Common/Go to page and verify title'), [('p_FunctionName') : 'Key Presses', ('p_HeaderTitle') : 'Key Presses'], 
     FailureHandling.STOP_ON_FAILURE)
 

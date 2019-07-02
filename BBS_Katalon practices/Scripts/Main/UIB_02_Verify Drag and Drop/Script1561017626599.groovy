@@ -21,8 +21,6 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/Go to page and verify title'), [('p_FunctionName') : 'Drag and Drop', ('p_HeaderTitle') : 'Drag and Drop'], 
     FailureHandling.STOP_ON_FAILURE)
 
-//WebElement source = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/Page_Drap and Drop/columnA'), 30)
-//WebElement taget = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/Page_Drap and Drop/columnB'), 30)
 String itemA = '#column-a'
 
 String itemB = '#column-b'

@@ -14,13 +14,14 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
+'go to page and verify title'
 WebUI.callTestCase(findTestCase('Common/Go to page and verify title'), [('p_FunctionName') : 'Sortable Data Tables', ('p_HeaderTitle') : 'Data Tables'], 
     FailureHandling.STOP_ON_FAILURE)
 
 'Verify header at column 3 on Table 1 is Email'
 WebUI.verifyElementText(findTestObject('Page_Table/Header column', ['tableName' : 'table1']), 'Email')
 
-//def cellJason = findTestObject('Page_Table/cellTable', [('tableName') : 'table1', ('rowIndex') : 3, ('columnIndex') : 2])
+
 'Verify cell value (row 3, column 2) on Table 1 is Jason'
 WebUI.verifyElementAttributeValue(findTestObject('Page_Table/cellTable', [('tableName') : 'table1', ('rowIndex') : 3
             , ('columnIndex') : 2]), 'innerText', 'Jason', 3)

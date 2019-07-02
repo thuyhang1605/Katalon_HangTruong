@@ -18,9 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 'Go to iFarme Editor page'
 WebUI.click(findTestObject('General/lnk_Function Name', [('linkName') : 'WYSIWYG Editor']))
 
-'Verify header menu of iframe'
-
-//WebUI.verifyElementAttributeValue(findTestObject('Page_Editor iFrame/Header menu'), 'innerText', 'File Edit View Format', 0)
 'Verify header title'
 WebUI.verifyElementText(findTestObject('General/lbl_Header title'), 'An iFrame containing the TinyMCE WYSIWYG Editor')
 
