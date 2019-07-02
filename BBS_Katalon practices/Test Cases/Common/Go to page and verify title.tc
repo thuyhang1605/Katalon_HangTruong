@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Go to page and verify title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8370ad5-4450-4f4b-be9f-a93ba577c564</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f846f2d3-0c79-491f-849b-2779cbb5a586</id>
+      <masked>false</masked>
+      <name>p_FunctionName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d6aecad4-feb7-4cca-9b5e-91b0a7dd1b6c</id>
+      <masked>false</masked>
+      <name>p_HeaderTitle</name>
+   </variable>
+</TestCaseEntity>

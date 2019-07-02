@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UIB_05_Verify Frames</name>
+   <tag></tag>
+   <comment>Verify header menu of iframe</comment>
+   <testCaseGuid>25319220-6bcf-4fd6-9554-8a7eceb2d4ca</testCaseGuid>
+</TestCaseEntity>
