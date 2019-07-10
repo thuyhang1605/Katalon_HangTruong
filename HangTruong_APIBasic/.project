@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>C%%Users%hangtruong%Katalon Studio%Katalon_HangTruong%HangTruong_APIBasic%HangTruong_APIBasic.prj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-2028766257120728822.groovy</name>
+			<type>1</type>
+			<location>C:/Users/HANGTR~1/AppData/Local/Temp/Katalon/Web Services/kat-2028766257120728822.groovy</location>
+		</link>
+		<link>
+			<name>kat-5413164865521991686.groovy</name>
+			<type>1</type>
+			<location>C:/Users/HANGTR~1/AppData/Local/Temp/Katalon/Web Services/kat-5413164865521991686.groovy</location>
+		</link>
+		<link>
+			<name>kat-6135960312260994357.groovy</name>
+			<type>1</type>
+			<location>C:/Users/HANGTR~1/AppData/Local/Temp/Katalon/Web Services/kat-6135960312260994357.groovy</location>
+		</link>
+		<link>
+			<name>kat-6886170613415175415.groovy</name>
+			<type>1</type>
+			<location>C:/Users/HANGTR~1/AppData/Local/Temp/Katalon/Web Services/kat-6886170613415175415.groovy</location>
+		</link>
+		<link>
+			<name>kat-8448203153681424078.groovy</name>
+			<type>1</type>
+			<location>C:/Users/HANGTR~1/AppData/Local/Temp/Katalon/Web Services/kat-8448203153681424078.groovy</location>
+		</link>
+		<link>
+			<name>kat-9043333672310389237.groovy</name>
+			<type>1</type>
+			<location>C:/Users/HANGTR~1/AppData/Local/Temp/Katalon/Web Services/kat-9043333672310389237.groovy</location>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1562580400277</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1562580400283</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
